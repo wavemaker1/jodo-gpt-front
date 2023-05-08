@@ -1,6 +1,7 @@
+var reqURL = "https://jodogpt-ldh150.koyeb.app/"; // 요청 주소
+
 function hello() {
   //로그인 요청
-  var reqURL = "http://localhost:3000"; // 요청 주소
 
   var ret = "0";
   $.ajax({
@@ -24,7 +25,6 @@ function hello() {
 }
 
 function calc() {
-  var reqURL = "http://localhost:3000"; // 요청 주소
 
   let num1 = document.getElementById("num1").value;
   let num2 = document.getElementById("num2").value;
